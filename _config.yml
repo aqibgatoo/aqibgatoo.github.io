@@ -1,0 +1,20 @@
+# Dependencies
+markdown:         Kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Aqib Gatoo
+tagline:          'Portfolio/Blog'
+description:      'Developer All the way'
+url:              http://hyde.getpoole.com
+baseurl:         /
+
+author:
+  name:           'Aqib Gatoo'
+  url:            https://twitter.com/aqibgatoo
+
+paginate:         5

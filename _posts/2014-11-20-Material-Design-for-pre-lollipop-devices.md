@@ -10,18 +10,20 @@ The most notable feature for any android app is is <b>Toolbar</b> widget.
 ### How to use.
    If you’re using Gradle then the first thing to do is to add appcompat as a dependency in your build.gradle:
 
-~~~ java
+{% highlight java %}
+
    dependencies {
      ...
      compile "com.android.support:appcompat-v7:21.0.+"
    }
-~~~
+
+{% endhighlight %}
   There are two ways for using Toolbar either standalone or Action bar. I will discuss using it as an Aciton bar.
 
 -   Firstly the Activity should extend from ActionBarActivity but note to use import it from appcompact-v7.
 -  Change the values/themes.xml:
 
-~~~ xml
+{% highlight xml %}
 <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
 <!-- Here we setting appcompat’s actionBarStyle -->
 <item name="actionBarStyle">@style/MyActionBarStyle</item>
@@ -32,10 +34,10 @@ The most notable feature for any android app is is <b>Toolbar</b> widget.
 
 <!-- The rest of your attributes -->
 </style>
-~~~
+{% endhighlight %}
 - You need to create a Toolbar instance, usually via your layout XML:
 
-~~~ xml
+{% highlight xml %}
 <android.support.v7.widget.Toolbar
 xmlns:app="http://schemas.android.com/apk/res-auto"
 android:id="@+id/my_basic_toolbar"
@@ -43,11 +45,11 @@ android:layout_height="wrap_content"
 android:layout_width="match_parent"
 android:minHeight="?attr/actionBarSize"
 android:background="?attr/colorPrimary" />
-~~~
+{% endhighlight %}
 - Then add the toolbar layout to your activity
 layout as:
 
-~~~ xml
+{% highlight xml %}
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
@@ -57,10 +59,10 @@ tools:context=".MainActivity">
 <include layout="@layout/toolbar" />
 
 </RelativeLayout>
-~~~
+{% endhighlight %}
 - Final step is to to set your Toolbar as your action bar in the Activity.java:
 
-~~~ java
+{% highlight java %}
 @Override
 public void onCreate(Bundle savedInstanceState) {
   super.onCreate(savedInstanceState);
@@ -69,7 +71,7 @@ public void onCreate(Bundle savedInstanceState) {
 Toolbar toolbar = (Toolbar) findViewById(R.id.my_basic_toolbar);
   setSupportActionBar(toolbar);
 }
-~~~
+{% endhighlight %}
 This is the Result:
 
 ![a relative link](/images/material_design_result.png)

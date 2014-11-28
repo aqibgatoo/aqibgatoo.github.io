@@ -11,13 +11,12 @@ The most notable feature for any android app is is <b>Toolbar</b> widget.
    If you’re using Gradle then the first thing to do is to add appcompat as a dependency in your build.gradle:
 
 {% highlight java %}
-
    dependencies {
      ...
      compile "com.android.support:appcompat-v7:21.0.+"
    }
-
 {% endhighlight %}
+
   There are two ways for using Toolbar either standalone or Action bar. I will discuss using it as an Aciton bar.
 
 -   Firstly the Activity should extend from ActionBarActivity but note to use import it from appcompact-v7.
@@ -35,6 +34,7 @@ The most notable feature for any android app is is <b>Toolbar</b> widget.
 <!-- The rest of your attributes -->
 </style>
 {% endhighlight %}
+
 - You need to create a Toolbar instance, usually via your layout XML:
 
 {% highlight xml %}
@@ -46,6 +46,7 @@ android:layout_width="match_parent"
 android:minHeight="?attr/actionBarSize"
 android:background="?attr/colorPrimary" />
 {% endhighlight %}
+
 - Then add the toolbar layout to your activity
 layout as:
 
@@ -60,6 +61,7 @@ tools:context=".MainActivity">
 
 </RelativeLayout>
 {% endhighlight %}
+
 - Final step is to to set your Toolbar as your action bar in the Activity.java:
 
 {% highlight java %}
@@ -72,6 +74,7 @@ Toolbar toolbar = (Toolbar) findViewById(R.id.my_basic_toolbar);
   setSupportActionBar(toolbar);
 }
 {% endhighlight %}
+
 This is the Result:
 
 ![a relative link](/images/material_design_result.png)

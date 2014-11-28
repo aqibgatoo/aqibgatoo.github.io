@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            Aqib Gatoo
 tagline:          'Portfolio/Blog'
 description:      'Developer All the way'
-url:              http://hyde.getpoole.com
+url:              http://aqibgatoo.github.io
 baseurl:         /
 
 author:

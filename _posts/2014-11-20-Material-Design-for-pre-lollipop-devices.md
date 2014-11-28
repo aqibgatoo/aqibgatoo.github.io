@@ -10,7 +10,7 @@ The most notable feature for any android app is is <b>Toolbar</b> widget.
 ### How to use.
    If you’re using Gradle then the first thing to do is to add appcompat as a dependency in your build.gradle:
 
-~~~java
+~~~ java
    dependencies {
      ...
      compile "com.android.support:appcompat-v7:21.0.+"
@@ -21,7 +21,7 @@ The most notable feature for any android app is is <b>Toolbar</b> widget.
 -   Firstly the Activity should extend from ActionBarActivity but note to use import it from appcompact-v7.
 -  Change the values/themes.xml:
 
-~~~xml
+~~~ xml
 <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
 <!-- Here we setting appcompat’s actionBarStyle -->
 <item name="actionBarStyle">@style/MyActionBarStyle</item>
@@ -35,7 +35,7 @@ The most notable feature for any android app is is <b>Toolbar</b> widget.
 ~~~
 - You need to create a Toolbar instance, usually via your layout XML:
 
-~~~xml
+~~~ xml
 <android.support.v7.widget.Toolbar
 xmlns:app="http://schemas.android.com/apk/res-auto"
 android:id="@+id/my_basic_toolbar"
@@ -47,7 +47,7 @@ android:background="?attr/colorPrimary" />
 - Then add the toolbar layout to your activity
 layout as:
 
-~~~xml
+~~~ xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
@@ -60,7 +60,7 @@ tools:context=".MainActivity">
 ~~~
 - Final step is to to set your Toolbar as your action bar in the Activity.java:
 
-~~~java
+~~~ java
 @Override
 public void onCreate(Bundle savedInstanceState) {
   super.onCreate(savedInstanceState);

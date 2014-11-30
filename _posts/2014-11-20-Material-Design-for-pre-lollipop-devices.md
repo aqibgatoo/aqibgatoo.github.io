@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Material Design for pre lollipop devices
+comments: true
 ---
 With the release of Android 5.0 a.k.a Lollipop new features were added to the android ecosystem,but the top most notable feature of android 5.0 is the Material Design Spec.
 The most notable feature for any android app is is <b>Toolbar</b> widget.

@@ -4,5 +4,5 @@ title: About
 ---
 
 <p class="message">
-My name is Mohd Aqib Gatoo and I am an Android Developer.
+My name is Mohd Aqib Gatoo and I am Java/Android Developer.
 </p>

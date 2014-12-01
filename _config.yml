@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Aqib Gatoo
 tagline:          'Portfolio/Blog'
-description:      'Developer All the way'
+description:      'Java/Android Developer'
 url:              http://aqibgatoo.github.io
 baseurl:         /
 

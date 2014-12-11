@@ -11,9 +11,10 @@ comments: true
   upgrade!"
  These words are not mine but the youtube google plus [post](https://plus.google.com/+youtube/posts/BUXfdWqu86Q)
  which mentions that gangnam style had got actually more views than the actual number of views shown.
+ 
  > The problem was that google was using
   a 32-bit integer to represent the number
-  of video views counter.The number of views
+  of video view counter.The number of views
   that gangnam style were actually more
   than the range of 32-bit integer. So to
   correct the thing, the people at youtube have now shifted to using a 64-bit integer

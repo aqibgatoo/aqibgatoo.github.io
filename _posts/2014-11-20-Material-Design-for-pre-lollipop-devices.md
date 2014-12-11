@@ -79,3 +79,5 @@ Toolbar toolbar = (Toolbar) findViewById(R.id.my_basic_toolbar);
 This is the Result:
 
 ![a relative link](/images/material_design_result.png)
+
+In my next post i will talk about using toolbar as standalone.

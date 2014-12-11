@@ -4,5 +4,5 @@ title: About
 ---
 
 <p class="message">
-I am a Java Developer.
+Under Construction.
 </p>

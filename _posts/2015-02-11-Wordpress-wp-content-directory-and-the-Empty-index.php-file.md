@@ -1,6 +1,6 @@
 ---
 layout : post
-title: Wordpress wp-content diretory and the Empty index.php file
+title: Wordpress wp-content directory and the Empty index.php file
 comments: true
 ---
 

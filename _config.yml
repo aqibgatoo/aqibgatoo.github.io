@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            Aqib Gatoo
 tagline:          'Portfolio/Blog'
 description:      'Full Stack Dev'
-url:              http://aqibgatoo.github.io
+url:              http://iamaqib.com
 baseurl:         /
 
 gems:

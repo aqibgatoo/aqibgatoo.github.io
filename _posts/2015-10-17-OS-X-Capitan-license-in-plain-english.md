@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OS X El Capitan License: in Plain English
+title: OS X El Capitan License in Plain English
 comments: true
 ---
 

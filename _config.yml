@@ -13,6 +13,9 @@ description:      'Full Stack Dev'
 url:              http://aqibgatoo.github.io
 baseurl:         /
 
+gems:
+  - jekyll-sitemap
+
 author:
   name:           'Aqib Gatoo'
   url:            https://twitter.com/aqibgatoo

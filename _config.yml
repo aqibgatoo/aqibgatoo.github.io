@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Aqib Gatoo
 tagline:          'Portfolio/Blog'
 description:      'Full Stack Dev'
-url:              http://iamaqib.com
+url:              http://iamaqib.xyz
 baseurl:         /
 
 gems:
@@ -17,6 +17,6 @@ gems:
 
 author:
   name:           'Aqib Gatoo'
-  url:            https://twitter.com/aqibgatoo
+  url:            https://twitter.com/aqibgatooo
 
 paginate:         3

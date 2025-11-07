@@ -1,0 +1,27 @@
+---
+---
+
+@import "no-style-please";
+
+/* Custom dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    filter: invert(1);
+    background-color: #000;
+  }
+  
+  img {
+    filter: invert(1);
+  }
+}
+
+/* Force dark mode when set in config */
+body[a="dark"] {
+  filter: invert(1);
+  background-color: #000;
+  
+  img {
+    filter: invert(1);
+  }
+}
+

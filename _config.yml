@@ -1,7 +1,17 @@
 # Dependencies
 markdown:         Kramdown
-# pygments:         true
-highlighter: pygments
+highlighter:      rouge
+
+# Theme
+theme:            no-style-please
+
+# Theme configuration
+theme_config:
+  appearance: "dark" # can be "light", "dark" or "auto"
+  back_home_text: "home" # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how dates are formatted
+  show_description: true # show blog description in home page
+
 # Permalinks
 permalink:        pretty
 
@@ -12,8 +22,11 @@ description:      'Senior Software Engineer'
 url:              http://iamaqib.xyz
 baseurl:         /
 
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
 
 author:
   name:           'Aqib Gatoo'

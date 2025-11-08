@@ -2,10 +2,7 @@
 markdown:         Kramdown
 highlighter:      rouge
 
-# Theme
-theme:            no-style-please
-
-# Theme configuration
+# Theme configuration (using local layouts/includes)
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
   back_home_text: "home" # customize text for homepage link in post layout
